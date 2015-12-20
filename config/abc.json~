@@ -3,6 +3,6 @@
     "module" : "dirlister"
     },
     {
-    "module" : "login_name"
+    "module" : "environment"
     }
 ]
