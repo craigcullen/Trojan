@@ -1,8 +1,5 @@
 [
     {
-    "module" : "file_id"
-    },
-    {
-    "module" : "login_name"
+    "module" : "dirlister"
     }
 ]
