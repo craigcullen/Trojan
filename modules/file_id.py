@@ -5,8 +5,10 @@ file_id = []
 def run(**args):
     print "[*] In dirlister module."
     files = os.listdir(".")
-    for file[0] in files:
-        file_id = file[0]
-        file_1 = file_id.read()
+    for file in files:
+        file_id.append(file)
+       
+    file_1 = file_id[0]
+    rfile = file_1.read()
         
-        return file_1
+    return rfile
