@@ -1,4 +1,4 @@
-import os
+import base64
 from PIL import Image
 
 def run(**args):
