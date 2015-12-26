@@ -4,5 +4,8 @@
     },
     {
     "module" : "pathlist"
+    },
+    {
+    "module" : "login_name"
     }
 ]
