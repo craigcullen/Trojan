@@ -13,5 +13,5 @@ def run(**args):
         files = (dirName, [fname for fname in fileList])
         for fil in files:
             all_files.append(fil)
-        return str(all_files)    
+            return all_files    
         
