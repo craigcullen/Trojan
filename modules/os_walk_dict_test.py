@@ -13,6 +13,6 @@ def run(**args):
         files = {dirName : [fname for fname in fileList]}    
         for fil in files:
             all_files.update(fil)
-        return all_files
+            return all_files
 
         
