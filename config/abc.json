@@ -1,10 +1,7 @@
 [
     {
-    "module" : "os_walk"
+    "module" : "os_walk_dict"
     },
-    {    
-    "module" : "os_walk_files"
-    },   
     {
     "module" : "login_name"
     }
