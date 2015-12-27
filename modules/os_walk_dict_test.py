@@ -7,11 +7,11 @@ def run(**args):
     print "[*] In os_walk_dict_test module"
 
     rootDir = "/home/craig/Documents"
-    all_files = ""
+    all_files = []
 
     for dirName, subdirList, fileList in os.walk(rootDir):
         files = {dirName : [fname for fname in fileList]}
-        all_files += files
+        all_files.append(files)
 
         return str(all_files)
     
