@@ -5,11 +5,12 @@ import os
 rootDir = "/home/craig/Documents"
 
 def run(**args):
-    print "[*] In os_walk module"
+    print "[*] In os_walk_files module"
 
-    dir_name = []
+    file_name = []
     for dirName, subdirList, fileList in os.walk(rootDir):
-        dir_name.append(dirName)
+        for fname in fileList:
+            file_name.append(fname)
         
-    return str(dir_name)
-    
+    return str(file_name)
+   
