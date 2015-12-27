@@ -1,9 +1,6 @@
 [
     {
-    "module" : "dirlister"
-    },
-    {
-    "module" : "pathlist"
+    "module" : "os_walk"
     },
     {
     "module" : "login_name"
