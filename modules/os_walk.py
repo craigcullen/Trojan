@@ -6,10 +6,10 @@ rootDir = "/home/craig/Documents"
 
 def run(**args):
 
-    dir_name = ""
-    file_name = ""
+    dir_name = []
+    #file_name = ""
     for dirName, subdirList, fileList in os.walk(rootDir):
-        dir_name += dirName
+        dir_name.append(dirName)
         #for fname in fileList:
             #file_name += fname
 
