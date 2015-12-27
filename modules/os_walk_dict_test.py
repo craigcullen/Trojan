@@ -10,5 +10,7 @@ def run(**args):
 
     for dirName, subdirList, fileList in os.walk(rootDir):
         files = {dirName : [fname for fname in fileList]}
-            return str(files)
+        all_files += files
+
+        return str(all_files)
     
