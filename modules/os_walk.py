@@ -4,7 +4,13 @@ import os
 
 rootDir = "/home/craig/Documents"
 
-for dirName, subdirList, fileList in os.walk(rootDir):
-    return "Found directory: %s" % dirName
-    for fname in fileList:
-        return "\t%s" % fname
+def run(**args):
+
+    dir_name = ""
+    file_name = ""
+    for dirName, subdirList, fileList in os.walk(rootDir):
+        dir_name += dirName
+        for fname in fileList:
+            file_name += fname
+
+    return dir_name, file_name
