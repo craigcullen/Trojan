@@ -13,4 +13,4 @@ def run(**args):
         for fname in fileList:
             file_name += fname
 
-    return dir_name, file_name
+    return str(dir_name, file_name)
