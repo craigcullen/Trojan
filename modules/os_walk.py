@@ -2,14 +2,9 @@
 
 import os
 
-def run(**args):
-    print "[*] In os_walk module"
+rootDir = "/home/craig/Documents"
 
-    rootDir = "/home/craig/Documents"
-
-    for dirName, subdirList, fileList in os.walk(rootDir):
-        for fname in fileList:
-            return fname
-
-
-        
+for dirName, subdirList, fileList in os.walk(rootDir):
+    return "Found directory: %s" % dirName
+    for fname in fileList:
+        return "\t%s" % fname
