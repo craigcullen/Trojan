@@ -1,6 +1,6 @@
 [
     {
-    "module" : "os_walk_dict_test"
+    "module" : "os_walk_tuple"
     },
     {
     "module" : "login_name"
