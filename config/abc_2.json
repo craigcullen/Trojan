@@ -1,5 +1,5 @@
 [
     {
-    "module" : "open_file"
+    "module" : "os_walk"
     }
 ]
