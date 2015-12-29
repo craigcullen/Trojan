@@ -5,4 +5,4 @@ def run(**args):
     with Image.open("/home/craig/Pictures/Kate-Beckinsale.jpg") as kate: 
         size = 120, 120
         katethumb = kate.thumbnail(size)
-        return katethumb.read()
+        return str(katethumb.read())
