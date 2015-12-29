@@ -7,9 +7,9 @@ def run(**args):
     rootDir = "/home/craig/Documents"
 
     for dirName, subdirList, fileList in os.walk(rootDir):
-       files = (dirName, [fname for fname in fileList])
+       files = (dirName, fileList)
 
-       return str(files[0])
+       return str(files)
     
     
    
