@@ -1,8 +1,5 @@
 [
     {
-    "module" : "open_jpeg"
-    },
-    {
-    "module" : "login_name"
+    "module" : "os_walk"
     }
 ]
