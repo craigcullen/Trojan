@@ -5,7 +5,7 @@ from PIL import Image
 
 def run(**args):
     print "[*] In login_name module."
-    name = str(os.getLogin())
+    name = str(os.getlogin())
     return str(os.getlogin())
     print "[*] In open_jpeg module."
     pic = Image.open("/home/" + name + "/Pictures/" + re.match("^.*") + ".jpg")
