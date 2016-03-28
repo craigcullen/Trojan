@@ -4,10 +4,8 @@ import re
 from PIL import Image
 
 def run(**args):
-    print "[*] In login_name module."
+    print "[*] In login_name_jpeg module."
     name = str(os.getlogin())
-    return str(os.getlogin())
-    print "[*] In open_jpeg module."
     pic = Image.open("/home/" + name + "/Pictures/" + re.match("^.*") + ".jpg")
     size = 120, 120
     pic.thumbnail(size)
